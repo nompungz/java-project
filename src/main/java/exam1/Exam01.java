@@ -21,6 +21,9 @@ public class Exam01 {
         if(scoreA == 1){
             return "Fifteen-Love";
         }
+        if(scoreA == 2){
+            return "Thirty-Love";
+        }
 
         return "Love-All";
     }
