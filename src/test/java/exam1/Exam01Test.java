@@ -126,7 +126,7 @@ public class Exam01Test {
         assertEquals("Deuce", actualResult);
     }
 
-    @Test 
+    @Test
     public void normal_case_01_should_Thirty_Fifteen() {
         exam01.playerAWin();
         exam01.playerBWin();
@@ -135,7 +135,7 @@ public class Exam01Test {
         assertEquals("Thirty-Fifteen", actualResult);
     }
 
-    @Test @Ignore
+    @Test 
     public void normal_case_02_should_Fifteen_Thirty() {
         exam01.playerAWin();
         exam01.playerBWin();
