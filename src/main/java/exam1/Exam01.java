@@ -48,7 +48,7 @@ public class Exam01 {
             if (scoreB == 2)
                 return "Thirty-All";
             if (scoreB == 3)
-                return "FThirty-Forty";
+                return "Thirty-Forty";
         }
         if (scoreA == 3) {
             if (scoreB == 0)
