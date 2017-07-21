@@ -535,4 +535,92 @@ public class Exam01Test {
         assertEquals("Advantage Player A", actualResult);
     }
 
+    @Test
+    public void moreTest5() {
+        exam01.playerAWin();
+        exam01.playerBWin();
+        exam01.playerAWin();
+        exam01.playerBWin();
+        exam01.playerAWin();
+        exam01.playerBWin();
+        exam01.playerAWin();
+        exam01.playerBWin();
+        exam01.playerAWin();
+        exam01.playerBWin();
+        exam01.playerAWin();
+        exam01.playerBWin();
+        exam01.playerAWin();
+        exam01.playerBWin();
+        exam01.playerAWin();
+        exam01.playerBWin();
+        exam01.playerAWin();
+        exam01.playerBWin();
+        exam01.playerAWin();
+        exam01.playerBWin();
+        exam01.playerAWin();
+        exam01.playerBWin();
+        exam01.playerAWin();
+        exam01.playerBWin();
+        exam01.playerAWin();
+        exam01.playerBWin();
+        exam01.playerAWin();
+        exam01.playerBWin();
+        exam01.playerBWin();
+        exam01.playerAWin();
+        exam01.playerAWin();
+        exam01.playerBWin();
+        exam01.playerBWin();
+        exam01.playerAWin();
+        exam01.playerAWin();
+        exam01.playerBWin();
+        exam01.playerBWin();
+        exam01.playerAWin();
+        exam01.playerBWin();
+        exam01.playerAWin();
+        exam01.playerAWin();
+        exam01.playerBWin();
+        exam01.playerAWin();
+        exam01.playerBWin();
+        exam01.playerAWin();
+        exam01.playerBWin();
+        exam01.playerAWin();
+        exam01.playerBWin();
+        exam01.playerAWin();
+        exam01.playerBWin();
+        exam01.playerAWin();
+        exam01.playerBWin();
+        exam01.playerAWin();
+        exam01.playerBWin();
+        exam01.playerAWin();
+        exam01.playerBWin();
+        exam01.playerAWin();
+        exam01.playerBWin();
+        exam01.playerAWin();
+        exam01.playerBWin();
+        exam01.playerAWin();
+        exam01.playerBWin();
+        exam01.playerAWin();
+        exam01.playerBWin();
+        exam01.playerAWin();
+        exam01.playerBWin();
+        exam01.playerAWin();
+        exam01.playerBWin();
+        exam01.playerBWin();
+        exam01.playerAWin();
+        exam01.playerAWin();
+        exam01.playerBWin();
+        exam01.playerBWin();
+        exam01.playerAWin();
+        exam01.playerAWin();
+        exam01.playerBWin();
+        exam01.playerBWin();
+        exam01.playerAWin();
+        exam01.playerBWin();
+        exam01.playerAWin();
+
+        
+        String actualResult = exam01.getScore();
+        assertEquals("Deuce", actualResult);
+    }
+
 }
