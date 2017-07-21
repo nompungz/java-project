@@ -74,6 +74,9 @@ public class Exam01 {
             if (scoreA - scoreB == 1){
                 return "Advantage Player A";
             }
+            if ( scoreB - scoreA == 1){
+                return "Advantage Player B";
+            }
         }
         return "Love-All";
     }
