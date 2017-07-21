@@ -397,5 +397,47 @@ public class Exam01Test {
         String actualResult = exam01.getScore();
         assertEquals("Win for Player A", actualResult);
     }
+    @Test
+    public void moreTest2() {
+        exam01.playerAWin();
+        exam01.playerBWin();
+        exam01.playerAWin();
+        exam01.playerBWin();
+        exam01.playerAWin();
+        exam01.playerBWin();
+        exam01.playerAWin();
+        exam01.playerBWin();
+        exam01.playerAWin();
+        exam01.playerBWin();
+        exam01.playerAWin();
+        exam01.playerBWin();
+        exam01.playerAWin();
+        exam01.playerBWin();
+        exam01.playerAWin();
+        exam01.playerBWin();
+        exam01.playerAWin();
+        exam01.playerBWin();
+        exam01.playerAWin();
+        exam01.playerBWin();
+        exam01.playerAWin();
+        exam01.playerBWin();
+        exam01.playerAWin();
+        exam01.playerBWin();
+        exam01.playerAWin();
+        exam01.playerBWin();
+        exam01.playerAWin();
+        exam01.playerBWin();
+        exam01.playerBWin();
+        exam01.playerAWin();
+        exam01.playerAWin();
+        exam01.playerBWin();
+        exam01.playerBWin();
+        exam01.playerAWin();
+
+
+
+        String actualResult = exam01.getScore();
+        assertEquals("Deuce", actualResult);
+    }
 
 }
