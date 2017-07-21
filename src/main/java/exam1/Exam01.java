@@ -3,9 +3,12 @@ package exam1;
 public class Exam01 {
     int scoreA = 0;
     int scoreB = 0;
-
+    String nameFirst = "";
+    String nameSecond = "";
 
     public Exam01(String firstPerson, String secondPerson) {
+        nameFirst = firstPerson;
+        nameSecond = secondPerson;
     }
 
 
@@ -29,6 +32,9 @@ public class Exam01 {
         }
         if(scoreA == 3){
             return "Forty-Love";
+        }
+        if(scoreA == 4){
+            return "Win for "+nameFirst;
         }
         return "Love-All";
     }
