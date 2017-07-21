@@ -24,7 +24,12 @@ public class Exam01 {
         if(scoreA == 2){
             return "Thirty-Love";
         }
-
+        if(scoreA == 1){
+            return "Fifteen-Love";
+        }
+        if(scoreA == 3){
+            return "Forty-Love";
+        }
         return "Love-All";
     }
 
