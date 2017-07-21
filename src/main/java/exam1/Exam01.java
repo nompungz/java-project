@@ -62,6 +62,9 @@ public class Exam01 {
         if (scoreA == 4) {
             return "Win for " + nameFirst;
         }
+        if (scoreB == 4){
+            return "Win for " + nameSecond;
+        }
         return "Love-All";
     }
 
