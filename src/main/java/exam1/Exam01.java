@@ -17,26 +17,53 @@ public class Exam01 {
     }
 
     public void playerBWin() {
-        scoreA++;
+        scoreB++;
     }
 
     public String getScore() {
-        if(scoreA == 1){
-            return "Fifteen-Love";
+
+        if (scoreA == 0) {
+            if (scoreB == 1)
+                return "Love-Fifteen";
+            if (scoreB == 2)
+                return "Love-Thirty";
+            if (scoreB == 3)
+                return "Love-Forty";
         }
-        if(scoreA == 2){
-            return "Thirty-Love";
+        if (scoreA == 1) {
+            if (scoreB == 0)
+                return "Fifteen-Love";
+            if (scoreB == 1)
+                return "Fifteen-Fifteen";
+            if (scoreB == 2)
+                return "Fifteen-Thirty";
+            if (scoreB == 3)
+                return "Fifteen-Forty";
         }
-        if(scoreA == 1){
-            return "Fifteen-Love";
+        if (scoreA == 2) {
+            if (scoreB == 0)
+                return "Thirty-Love";
+            if (scoreB == 1)
+                return "Thirty-Fifteen";
+            if (scoreB == 2)
+                return "Thirty-Thirty";
+            if (scoreB == 3)
+                return "FThirty-Forty";
         }
-        if(scoreA == 3){
-            return "Forty-Love";
+        if (scoreA == 3) {
+            if (scoreB == 0)
+                return "Forty-Love";
+            if (scoreB == 1)
+                return "Forty-Fifteen";
+            if (scoreB == 2)
+                return "Forty-Thirty";
         }
-        if(scoreA == 4){
-            return "Win for "+nameFirst;
+
+        if (scoreA == 4) {
+            return "Win for " + nameFirst;
         }
         return "Love-All";
     }
+
 
 }
