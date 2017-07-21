@@ -57,6 +57,8 @@ public class Exam01 {
                 return "Forty-Fifteen";
             if (scoreB == 2)
                 return "Forty-Thirty";
+            if (scoreB == 3)
+                return "Deuce";
         }
 
         if (scoreA == 4) {
