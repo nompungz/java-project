@@ -61,11 +61,14 @@ public class Exam01 {
                 return "Deuce";
         }
 
-        if (scoreA == 4) {
+        if (scoreA == 4 && scoreB < 4) {
             return "Win for " + nameFirst;
         }
-        if (scoreB == 4){
+        if (scoreB == 4 && scoreA < 4){
             return "Win for " + nameSecond;
+        }
+        if (scoreA == scoreB && scoreA >=3){
+            return "Deuce";
         }
         return "Love-All";
     }
