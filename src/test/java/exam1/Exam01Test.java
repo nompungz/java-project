@@ -485,4 +485,54 @@ public class Exam01Test {
         assertEquals("Advantage Player B", actualResult);
     }
 
+    @Test
+    public void moreTest4() {
+        exam01.playerAWin();
+        exam01.playerBWin();
+        exam01.playerAWin();
+        exam01.playerBWin();
+        exam01.playerAWin();
+        exam01.playerBWin();
+        exam01.playerAWin();
+        exam01.playerBWin();
+        exam01.playerAWin();
+        exam01.playerBWin();
+        exam01.playerAWin();
+        exam01.playerBWin();
+        exam01.playerAWin();
+        exam01.playerBWin();
+        exam01.playerAWin();
+        exam01.playerBWin();
+        exam01.playerAWin();
+        exam01.playerBWin();
+        exam01.playerAWin();
+        exam01.playerBWin();
+        exam01.playerAWin();
+        exam01.playerBWin();
+        exam01.playerAWin();
+        exam01.playerBWin();
+        exam01.playerAWin();
+        exam01.playerBWin();
+        exam01.playerAWin();
+        exam01.playerBWin();
+        exam01.playerBWin();
+        exam01.playerAWin();
+        exam01.playerAWin();
+        exam01.playerBWin();
+        exam01.playerBWin();
+        exam01.playerAWin();
+        exam01.playerAWin();
+        exam01.playerBWin();
+        exam01.playerBWin();
+        exam01.playerAWin();
+        exam01.playerBWin();
+        exam01.playerAWin();
+        exam01.playerAWin();
+
+
+
+        String actualResult = exam01.getScore();
+        assertEquals("Advantage Player A", actualResult);
+    }
+
 }
