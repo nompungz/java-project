@@ -80,6 +80,9 @@ public class Exam01 {
             if ( scoreA - scoreB >= 2){
                 return "Win for " + nameFirst;
             }
+            if ( scoreB - scoreA >= 2){
+                return "Win for " + nameSecond;
+            }
 
         }
         return "Love-All";
