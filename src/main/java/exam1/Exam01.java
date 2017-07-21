@@ -13,7 +13,8 @@ public class Exam01 {
     }
 
     public String getScore() {
-        return null;
+
+        return "Love-All";
     }
 
 }
