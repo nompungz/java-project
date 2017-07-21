@@ -34,7 +34,7 @@ public class Exam01 {
             if (scoreB == 0)
                 return "Fifteen-Love";
             if (scoreB == 1)
-                return "Fifteen-Fifteen";
+                return "Fifteen-All";
             if (scoreB == 2)
                 return "Fifteen-Thirty";
             if (scoreB == 3)
