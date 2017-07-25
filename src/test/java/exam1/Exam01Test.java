@@ -618,7 +618,7 @@ public class Exam01Test {
         exam01.playerBWin();
         exam01.playerAWin();
 
-        
+
         String actualResult = exam01.getScore();
         assertEquals("Deuce", actualResult);
     }
